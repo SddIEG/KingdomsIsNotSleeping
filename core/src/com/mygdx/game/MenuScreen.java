@@ -33,7 +33,7 @@ public class MenuScreen extends ScreenAdapter {
 
 
             if (startView.isHit(mGG.touch.x, mGG.touch.y)) {
-
+                mGG.setScreen(new TapCatchScreen(mGG));
             }
             if (settingView.isHit(mGG.touch.x, mGG.touch.y)) {
 
